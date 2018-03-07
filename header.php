@@ -3,7 +3,7 @@
 
       <!--          Logo          -->
       <div id="logo">
-        <a href="#"><img src="http://via.placeholder.com/350x150"></a>
+        <a href="index.php"><img src="img/logo_beer.png"></a>
       </div>
       <!--          Logo end         -->
       

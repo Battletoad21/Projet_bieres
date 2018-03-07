@@ -1,45 +1,52 @@
+
+/*         ------------------GENERAL---------------          */
+
 p
 {
     text-align: justify;
 }
 
+/*         ------------------HEADER---------------          */
+
 /*         Logo          */
 
-
-#logo
+#logo img
 {
-	background-color: black;
-	text-align: center;
-}
-
-/* centered columns styles */
-.row-centered {
-    text-align:center;
-}
-.col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
-    text-align: center;
+    max-width: 100%;
+    height: auto;
 }
 
 
 /*         Nav          */
+
+.navbar-nav 
+{
+    width: 100%;
+    text-align: center;
+}
+    
+.navbar-nav li
+{
+    float: none;
+    display: inline-block;
+}
 
 .navbar
 {
     margin-bottom: 0px;
 }
 
+/*         ------------------HEADER---------------          */
+
 /*         Section         */
 
 .select-thumb
 {
-    margin: 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
+
 
 .specialist
 {
@@ -48,6 +55,7 @@ p
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    background-color: black;
 
 }
 
@@ -56,6 +64,7 @@ p
     margin: 10px;
     height: 150px;
 }
+
 
 /*         Footer          */
 
@@ -74,4 +83,18 @@ footer
 .link_foot_two a
 {
 	font-size: 12px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    text-align: center;
 }

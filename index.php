@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
   <head>
@@ -165,7 +165,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="thumbnail specialist">
-            <img src="img/beer.png" alt="...">
+            <img src="img/kyle.png" alt="...">
             <div class="caption">
               <h3>Le mot de notre spécialiste</h3>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.<br><br><strong>Kyle Brace</strong></p>
