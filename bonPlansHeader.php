@@ -6,7 +6,7 @@
         <a href="index.php"><img src="img/logo_beer.png"></a>
       </div>
       <!--          Logo end         -->
-      
+
       <!--          Menu          -->
       <nav class="navbar navbar-default">
         <div class="container-fluid">
