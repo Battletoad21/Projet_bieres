@@ -3,7 +3,12 @@
 
 p
 {
-    text-align: justify;
+    text-align: center;
+}
+
+body
+{
+    background: #F2F2F2;
 }
 
 /*         ------------------HEADER---------------          */
@@ -36,7 +41,7 @@ p
     margin-bottom: 0px;
 }
 
-/*         ------------------HEADER---------------          */
+/*         ------------------HEADER end---------------          */
 
 /*         Section         */
 
@@ -55,7 +60,9 @@ p
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    background-color: black;
+    background-color: #2B3937;
+    border-radius: 20px;
+}
 
 }
 
@@ -65,12 +72,30 @@ p
     height: 150px;
 }
 
+.specialist h3, .specialist p
+{
+    color: #6E6E6E;
+}
+
+.height h2, .height h3, .height p
+{
+    color: #6E6E6E;
+}
+
+.height
+{
+    height: 600px;
+    padding-top: 20px;
+    background-color: #1C1C1C;
+    text-align: center;
+    border-radius: 20px;
+}
 
 /*         Footer          */
 
 footer
 {
-	background-color: black;
+	background-color: #1C1C1C;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
