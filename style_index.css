@@ -1,0 +1,77 @@
+p
+{
+    text-align: justify;
+}
+
+/*         Logo          */
+
+
+#logo
+{
+	background-color: black;
+	text-align: center;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    text-align: center;
+}
+
+
+/*         Nav          */
+
+.navbar
+{
+    margin-bottom: 0px;
+}
+
+/*         Section         */
+
+.select-thumb
+{
+    margin: 10px;
+}
+
+.specialist
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.specialist img
+{
+    margin: 10px;
+    height: 150px;
+}
+
+/*         Footer          */
+
+footer
+{
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.link_foot_one a
+{
+	margin: 20px;
+}
+
+.link_foot_two a
+{
+	font-size: 12px;
+}
