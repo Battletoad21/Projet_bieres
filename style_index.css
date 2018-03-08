@@ -1,19 +1,29 @@
 
 /*         ------------------GENERAL---------------          */
 
+/*         Modifier paragraphes         */
+
 p
 {
     text-align: center;
 }
 
+/*         Modifier la couleur de fond          */
+
 body
 {
-    background: #F2F2F2;
+    background: #E6E6E6;
 }
+
+/*         ------------------GENERAL end---------------          */
+
+
+
+
 
 /*         ------------------HEADER---------------          */
 
-/*         Logo          */
+/*         Modifier Logo          */
 
 #logo img
 {
@@ -22,7 +32,7 @@ body
 }
 
 
-/*         Nav          */
+/*         Modifier barre de NavigationS          */
 
 .navbar-nav 
 {
@@ -34,35 +44,156 @@ body
 {
     float: none;
     display: inline-block;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
 }
 
 .navbar
 {
     margin-bottom: 0px;
+    background: #D8D8D8;
+    border: 0px;
+    border-radius: 0px;
 }
+
+
 
 /*         ------------------HEADER end---------------          */
 
-/*         Section         */
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-family: 'Cinzel', serif;
+    border: black solid 2px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 10px; 
+
+}
+
+
+/*         ------------------SECTION---------------          */
+
+
+/*         Thumbnails         */
+
+.carousel-caption h2
+{
+    font-family: 'Electrolize', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: white solid 1px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
 
 .select-thumb
 {
     margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
+.height h3
+{
+    color: #1C1C1C;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.height h2
+{
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: black solid 5px;
+    color: whitesmoke;
+    font-family: 'Electrolize', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.height p
+{
+    font-size: 13px;
+    color: #1C1C1C;
+    background-color: #BDBDBD;
+    font-family: 'Electrolize', sans-serif;
+    border: #A4A4A4 solid 1px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.height
+{
+    padding-top: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+
+.height img
+{
+    padding: 15px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.textbeer
+{
+    border: black solid 1px;
+    border-radius: 2px;
+    margin-top: 30px;
+    background-color: #E6E6E6;
+}
+
+.select-beer
+{
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    height: 670px;
+}
+
+.select-beer:hover
+{
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    background-color: #2E2E2E;
+    border-radius: 12px;
+}
+
+.select-beer:hover img
+{
+    border: orange solid 2px;
+}
+
+
+
+/*         spécialiste KYLE          */
+
+.box-kyle
+{
+    margin-top: 400px;
+}
 
 .specialist
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     padding: 20px;
     background-color: #2B3937;
     border-radius: 20px;
+    margin-top: 35px;
 }
+
 
 }
 
@@ -77,21 +208,14 @@ body
     color: #6E6E6E;
 }
 
-.height h2, .height h3, .height p
-{
-    color: #6E6E6E;
-}
+/*         ------------------SECTION end---------------          */
 
-.height
-{
-    height: 600px;
-    padding-top: 20px;
-    background-color: #1C1C1C;
-    text-align: center;
-    border-radius: 20px;
-}
 
-/*         Footer          */
+
+
+/*         ------------------FOOTER---------------          */
+
+/*         Modifier la couleur de fond          */
 
 footer
 {
@@ -100,10 +224,14 @@ footer
 	padding-bottom: 10px;
 }
 
+/*         Modifier 1ere ligne de liens         */
+
 .link_foot_one a
 {
 	margin: 20px;
 }
+
+/*         Modifier 2ème liens        */
 
 .link_foot_two a
 {
@@ -111,10 +239,14 @@ footer
 }
 
 /* centered columns styles */
-.row-centered {
+
+.row-centered
+{
     text-align:center;
 }
-.col-centered {
+
+.col-centered
+{
     display:inline-block;
     float:none;
     /* reset the text-align */
@@ -123,3 +255,7 @@ footer
     margin-right:-4px;
     text-align: center;
 }
+
+
+
+/*         ------------------FOOTER end---------------          */
