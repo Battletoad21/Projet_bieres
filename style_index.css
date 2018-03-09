@@ -250,7 +250,7 @@ footer
 
 .link_foot_one a
 {
-	margin: 20px;
+	margin: 8px;
 }
 
 /*         Modifier 2ème liens        */
@@ -278,6 +278,11 @@ footer
     text-align: center;
 }
 
+footer img
+{
+    height: 30px;
+    width: 30px;
+}
 
 
 /*         ------------------FOOTER end---------------          */
