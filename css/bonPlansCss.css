@@ -34,3 +34,21 @@ width: 100%;
  .affix + .container-fluid {
      padding-top:50%;
  }
+
+ .panel-body{
+ vertical-align: top;
+ padding: 1em;
+ }
+
+.panel-body h4{
+display: inline-block;
+vertical-align: top;
+padding: 1em;
+}
+
+.panel-body h3{
+border: 1px solid rgb(133, 133, 133);
+border-radius: 50px;
+float: right;
+padding: 1em;
+}
