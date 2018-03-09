@@ -12,16 +12,10 @@
   </head>
   <body>
 
-
-
     <?php include 'bonPlansHeader.php'; ?>
 
+    <?php include 'bonPlansPannels.php' ?>
 
-
-
-
-
-<?php include 'bonPlansCarousel.php'; ?>
 
 <?php
 
@@ -31,7 +25,4 @@ echo'test<br>';
 
 
   </body>
-
-
-
 </html>

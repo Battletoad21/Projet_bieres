@@ -12,7 +12,7 @@
       <div class="carousel-inner" role="listbox">
 
         <div class="item active">
-          <img src="img/slide01.png" alt="bar">
+          <img src="imge/slide01.png" alt="bar">
           <div class="carousel-caption">
             <h3>Ice-bar</h3>
             <p>Thermostat froid, pour une bière chaleureuse.</p>
@@ -20,18 +20,18 @@
         </div>
 
         <div class="item">
-          <img src="img/slide02.png" alt="bar">
+          <img src="imge/slide02.png" alt="bar">
           <div class="carousel-caption">
             <h3>Les bons plans</h3>
-            <p>Les bières de Stras' Enquêteur de bon plans depuis 1870.</p>
+            <p>Les bières de Stras' enquêteur de bon plans depuis 1870.</p>
           </div>
         </div>
 
         <div class="item">
-          <img src="img/slide03.png" alt="bar">
+          <img src="imge/slide03.png" alt="bar">
           <div class="carousel-caption">
-            <h3>Chania</h3>
-            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+            <h3>Les meilleurs conseil</h3>
+            <p>Grace à notre spécialise Kyle Grace, expert en bière de père en fils</p>
           </div>
         </div>
 

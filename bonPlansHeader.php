@@ -3,12 +3,12 @@
 
       <!--          Logo          -->
       <div id="logo">
-        <a href="index.php"><img src="img/logo_beer.png"></a>
+        <a href="index.php"><img src="imge/logo_beer.png"></a>
       </div>
       <!--          Logo end         -->
 
       <!--          Menu          -->
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default" data-spy="affix" data-offset-top="280">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -35,3 +35,4 @@
 
     </header>
     <!--       HEADER END          -->
+        <?php include 'bonPlansCarousel.php'; ?>
