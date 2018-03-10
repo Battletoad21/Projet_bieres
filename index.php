@@ -68,13 +68,13 @@
       </div>
       <!--          Caroussel end        -->
 
-      <div class="title"><h2>DECOUVREZ NOTRE SELECTION</h2></div>
+      <div class="title_section"><h2>DECOUVREZ NOTRE SELECTION</h2></div>
 
       <!--          Thumbnails        -->
 
       <div class="row select-thumb">
 
-        <div class="col-md-3 select-beer">
+        <div class="col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -85,7 +85,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 select-beer">
+        <div class="col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -96,7 +96,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 select-beer">
+        <div class="col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -107,7 +107,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 select-beer">
+        <div class="col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -118,7 +118,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 select-beer">
+        <div class="col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -129,7 +129,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 select-beer">
+        <div class="col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -140,7 +140,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 select-beer">
+        <div class="col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -151,7 +151,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 select-beer">
+        <div class="col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -174,7 +174,7 @@
             <div class="caption text-kyle">
               <h3>Le mot de notre spécialiste</h3>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
-              <p><a href="#" class="btn btn-primary contact-kyle" role="button">Nous contacter</a></p>
+              <p><a href="contact.php" class="btn btn-primary contact-kyle" role="button">Nous contacter</a></p>
             </div>
           </div>
         </div>
