@@ -1,0 +1,62 @@
+/*         ------------------FOOTER---------------          */
+
+/*         Modifier la couleur de fond          */
+
+footer
+{
+	background-color: #1C1C1C;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*         Modifier 1ere ligne de liens         */
+
+.link_foot_one a
+{
+	margin: 8px;
+}
+
+/*         Modifier 2ème liens        */
+
+.link_foot_two p
+{
+	font-size: 18px;
+    margin-top: 8px;
+}
+
+.link_foot_two a
+{
+    font-size: 20px;
+}
+
+/* centered columns styles */
+
+.row-centered
+{
+    text-align:center;
+    margin: 10px;
+}
+
+.col-centered
+{
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    text-align: center;
+}
+
+.first_bloc img
+{
+    height: 30px;
+    width: 30px;
+}
+
+.back_top
+{
+    position: absolute;
+
+
+/*         ------------------FOOTER end---------------          */
