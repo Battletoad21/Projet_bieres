@@ -33,8 +33,7 @@
             <p>Grace à notre spécialise Kyle Grace, expert en bière de père en fils</p>
           </div>
         </div>
-
-
+ 
 
       </div>
 
