@@ -12,13 +12,10 @@
   </head>
   <body>
 
-    <?php include 'bonPlansHeader.php'; ?>
-
-    <?php include 'bonPlansPannels.php' ?>
-
-<?php include 'bonPlansFooter.php' ?>
+    <?php include 'header.php';
+          include 'bonPlansPannels.php';
+          include 'footer.php'; ?>
 
 
   </body>
 </html>
- 
