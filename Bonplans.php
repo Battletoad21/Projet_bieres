@@ -13,6 +13,7 @@
   <body>
 
     <?php include 'header.php';
+          include 'bonPlansCarousel.php';
           include 'bonPlansPannels.php';
           include 'footer.php'; ?>
 

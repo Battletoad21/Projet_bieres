@@ -1,4 +1,7 @@
 <!--          HEADER           -->
+<head>
+  <link rel="stylesheet" href="css/header.css">
+</head>
     <header>
 
       <!--          Logo          -->
@@ -6,7 +9,7 @@
         <a href="index.php"><img src="img/logo_beer.png"></a>
       </div>
       <!--          Logo end         -->
-      
+
       <!--          Menu          -->
       <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -19,7 +22,7 @@
               <span class="icon-bar"></span>
             </button>
           </div>
-          
+
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li><a href="index.php">Accueil</a></li>
