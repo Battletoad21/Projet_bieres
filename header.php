@@ -23,8 +23,8 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li><a href="index.php">Accueil</a></li>
-              <li><a href="#">Bons plans</a></li>
-              <li><a href="#">Atypique</a></li>
+              <li><a href="bon plans.php">Bons plans</a></li>
+              <li><a href="atypique.php">Atypique</a></li>
               <li><a href="contact.php">Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
