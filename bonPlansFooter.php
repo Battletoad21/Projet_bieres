@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="style_index.css">
+
     <!--          FOOTER           -->
     <footer class="container-fluid">
       <div class="row row-centered">
