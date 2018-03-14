@@ -16,7 +16,7 @@
 
     <?php include 'bonPlansPannels.php' ?>
 
-
+<?php include 'bonPlansFooter.php' ?>
 
 
   </body>

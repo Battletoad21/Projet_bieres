@@ -1,13 +1,12 @@
 
 <div class="container">
-  <h2>Panel Group</h2>
-  <p>The panel-group class clears the bottom-margin. Try to remove the class and see what happens.</p>
-  <div class="panel-group">
+  <h2>Les bons plans!</h2>
 
-<?php for ($i=0; $i <10 ; $i++) {
+
+<?php
+
 include 'bonPlansPannelsDefault.php';
 
-}
 ?>
 
   </form>
