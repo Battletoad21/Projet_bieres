@@ -25,7 +25,7 @@
               <li><a href="index.php">Accueil</a></li>
               <li><a href="#">Bons plans</a></li>
               <li><a href="#">Atypique</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
