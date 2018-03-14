@@ -1,0 +1,194 @@
+/*         Logo          */
+
+/*         Modifier Logo          */
+
+#logo img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*         Modifier barre de NavigationS          */
+
+.navbar-nav
+{
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav li
+{
+    float: none;
+    display: inline-block;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+}
+
+.navbar
+{
+    margin-bottom: 0px;
+    background: #D8D8D8;
+    border: 0px;
+    border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+body {
+	background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+	background-color: black;
+}
+
+.pic img {
+	height: 400px;
+	width: 500px:
+	padding:0px;
+	min-width: 100%;
+}
+
+.jumbotron {
+	  background-color: white;
+	  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+	  font-size: 1rem;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.neon {
+	  color:  	#F0F8FF;
+	  text-shadow:
+	    0 0 5px  	#F0F8FF,
+	    0 0 10px  	#F0F8FF,
+	    0 0 20px  	#F0F8FF,
+	    0 0 40px  	#F0F8FF,
+	    0 0 80px #000000,
+	    0 0 90px #000000,
+	    0 0 100px #000000,
+	    0 0 150px #000000;
+			font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+	  font-family: 'Megrim', cursive;
+	}
+
+
+	.height {
+	  display: flex;
+	  flex-wrap: wrap;
+		height: 600px;
+		margin-bottom: 20px;
+	}
+	.thumbnail {
+	  height: 100%;
+	}
+
+
+#logo
+{
+	background-color: black;
+	text-align: center;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:0px;
+    text-align: center;
+}
+
+.specialist
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-color: Black;
+    border: #2E2E2E solid 2px;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+.specialist img
+{
+    background-color: Whitesmoke;
+    box-shadow: 7px 7px 7px black;
+    padding: 8px;
+    height: 300px;
+}
+
+.contact-kyle
+{
+    margin-top: 30px;
+}
+
+.specialist h3, .specialist p
+{
+    color: #2E2E2E;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.specialist h3
+{
+    margin-bottom: 40px;
+}
+
+
+
+
+/*         Modifier la couleur de fond          */
+
+footer
+{
+	background-color: #1C1C1C;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*         Modifier 1ere ligne de liens         */
+
+.link_foot_one a
+{
+	margin: 20px;
+}
+
+/*         Modifier 2ème liens        */
+
+.link_foot_two a
+{
+	font-size: 12px;
+}
+
+/* centered columns styles */
+
+.row-centered
+{
+    text-align:center;
+}
+
+.col-centered
+{
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    text-align: center;
+}
+
+
+
+/*         ------------------FOOTE
