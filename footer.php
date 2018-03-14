@@ -16,6 +16,11 @@
       </div>
 
     </footer>
+<<<<<<< HEAD:footer.php
 
 
     <!--         FOOTER END        -->
+=======
+    <!--         FOOTER END        -->
+ 
+>>>>>>> Hasan:bonPlansFooter.php

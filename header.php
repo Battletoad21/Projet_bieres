@@ -35,3 +35,8 @@
 
     </header>
     <!--       HEADER END          -->
+<<<<<<< HEAD:header.php
+=======
+        <?php include 'bonPlansCarousel.php'; ?>
+ 
+>>>>>>> Hasan:bonPlansHeader.php
