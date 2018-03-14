@@ -3,12 +3,12 @@
 
       <!--          Logo          -->
       <div id="logo">
-        <img src="logo_beer.png">
+        <a href="index.php"><img src="imge/logo_beer.png"></a>
       </div>
       <!--          Logo end         -->
 
       <!--          Menu          -->
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default" data-spy="affix" data-offset-top="280">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -23,7 +23,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li><a href="index.php">Accueil</a></li>
+              <li class="active"><a href="#">Accueil<span class="sr-only">(current)</span></a></li>
               <li><a href="#">Bons plans</a></li>
               <li><a href="#">Atypique</a></li>
               <li><a href="#">Contact</a></li>
@@ -35,5 +35,5 @@
 
     </header>
     <!--       HEADER END          -->
-
         <?php include 'bonPlansCarousel.php'; ?>
+ 
