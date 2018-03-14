@@ -16,12 +16,7 @@
 
     <?php include 'bonPlansPannels.php' ?>
 
-
-<?php
-
-for ($i=0; $i <50 ; $i++) {
-echo'test<br>';
-} ?>
+<?php include 'bonPlansFooter.php' ?>
 
 
   </body>

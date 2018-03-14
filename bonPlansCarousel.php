@@ -5,7 +5,6 @@
         <li class="item1 active"></li>
         <li class="item2"></li>
         <li class="item3"></li>
-        <li class="item4"></li>
       </ol>
 
       <!-- Wrapper for slides -->

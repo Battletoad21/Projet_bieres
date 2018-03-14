@@ -34,3 +34,22 @@ width: 100%;
  .affix + .container-fluid {
      padding-top:50%;
  }
+
+
+article{
+    background-color: #E0E0E0;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+article p{
+      white-space: pre-line;
+      font-size: 10px;
+}
+
+figure img{
+    width: 200px;
+    height: 200px;
+}
