@@ -1,8 +1,6 @@
 body
 {
 	background-color: #2E2E2E;
-	color: whitesmoke;
-	font-family: 'Electrolize', sans-serif;
 }
 
 form
@@ -11,6 +9,9 @@ form
 	flex-direction: column;
 	align-items: center;
 	margin: 100px;
+	color: white;
+	font-family: 'Electrolize', sans-serif;
+	font-size: 16px;
 }
 
 .error
@@ -21,12 +22,12 @@ form
 h2
 {
 	margin-bottom: 50px;
+	text-align: center;
+	border: solid white 2px;
+	padding: 10px;
+	border-radius: 4px;
 }
 
-label
-{
-	width: 150px;
-}
 
 input, select
 {
@@ -47,3 +48,16 @@ textarea
 	font-size: 20px;
 }
 
+@media only screen and (min-width: 600px)
+{
+	input, select
+	{
+		color: #2E2E2E;
+		width: 500px;
+	}
+
+	textarea
+	{
+		min-width: 500px;
+	}
+}

@@ -20,6 +20,7 @@
     <?php include ('header.php'); ?>
     <!--          HEADER END           -->
 
+  <contact>
     <div>
             <p>
                 <?php
@@ -41,7 +42,7 @@
                         }
                         if (!preg_match("#(^\+[0-9]{2}|^\+[0-9]{2}\(0\)|^\(\+[0-9]{2}\)\(0\)|^00[0-9]{2}|^0)([0-9]{9}$|[0-9\-\s]{10}$)#", $_POST['user_telephone']))
                         {
-                            $errors['ErrTel2'] = 'Numero de téléphone invalide.';
+                            $errors['ErrTel2'] = '<br/> Numéro invalide.';
                         }
                         if ($_POST['object'] == 'default')
                         {
@@ -77,8 +78,8 @@
     <form class="form_contact" action="" method="post">
             <h2>NOUS CONTACTER</h2>
             <div class="form-group">
-                <label for="nom">Nom</label>
-                <input type="text" id="nom" name="user_name" size="30" placeholder="votre nom" value="<?php if (isset($_POST['user_name']) && (count($errors) != 0)) echo $_POST['user_name']; ?>">
+                <label for="nom">Nom</label><br/>
+                <input type="text" id="nom" name="user_name" value="<?php if (isset($_POST['user_name']) && (count($errors) != 0)) echo $_POST['user_name']; ?>">
                 <div class="error">
                 <p>
                     <?php
@@ -90,8 +91,8 @@
             </div>
             
             <div class="form-group">
-                <label for="courriel">E-mail</label>
-                <input type="email" id="courriel" name="user_email" size="29" placeholder="adresse@mail.com" value="<?php if (isset($_POST['user_email']) && (count($errors) != 0)) echo $_POST['user_email']; ?>">
+                <label for="courriel">E-mail</label><br/>
+                <input type="email" id="courriel" name="user_email" value="<?php if (isset($_POST['user_email']) && (count($errors) != 0)) echo $_POST['user_email']; ?>">
                 <div class="error">
                 <p>
                     <?php
@@ -104,8 +105,8 @@
             
 
             <div class="form-group">
-                <label for="telephone">Téléphone</label>
-                <input type="tel" id="telephone" name="user_telephone" size="25" value="<?php if (isset($_POST['user_telephone']) && (count($errors) != 0)) echo $_POST['user_telephone']; ?>">
+                <label for="telephone">Téléphone</label><br/>
+                <input type="tel" id="telephone" name="user_telephone" value="<?php if (isset($_POST['user_telephone']) && (count($errors) != 0)) echo $_POST['user_telephone']; ?>">
                 <div class="error">
                 <p>
                     <?php
@@ -119,11 +120,11 @@
             
 
             <div class="form-group">
-                <label for="object">Sujet du message</label>
+                <label for="object">Sujet</label><br/>
                 <select name="object" id="object">
                     <option value="default" id="default"></option>
                     <option value="sav">Vous êtes un amateur</option>
-                    <option value="service consommateur">Vous êtes un professionnel (brasserie, bar...)</option>
+                    <option value="service consommateur">Vous êtes un professionnel</option>
                     <option value="resiliation">Autres</option>
                 </select>
                 <div class="error">
@@ -149,8 +150,10 @@
                     <br>
                 </p>
             </div>
-      <button type="submit" class="btn btn-default">Submit</button>
+      <button type="submit" class="btn btn-default">Envoyer</button>
     </form>
+
+  </contact>
     
  
 
