@@ -36,19 +36,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <a href="#"><img src="img/slide01.png"></a>
+            <a><img src="img/slide01.png"></a>
             <div class="carousel-caption">
               <H2>BIERE BRUNE DU MOIS</H2>
             </div>
           </div>
           <div class="item">
-            <a href="#"><img src="img/slide02.png"></a>
+            <a><img src="img/slide02.png"></a>
             <div class="carousel-caption">
               <H2>BIERE BLONDE DU MOIS</H2>
             </div>
           </div>
           <div class="item">
-            <a href="#"><img src="img/slide03.png"></a>
+            <a><img src="img/slide03.png"></a>
             <div class="carousel-caption">
               <H2>BIERE BLANCHE DU MOIS</H2>
             </div>

@@ -24,13 +24,13 @@
     float: none;
     display: inline-block;
     font-family: 'Cinzel', serif;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 .navbar
 {
     margin-bottom: 0px;
-    background: #D8D8D8;
+    background: #191007;
     border: 0px;
     border-radius: 0px;
 }
@@ -48,3 +48,4 @@
   .affix + .container-fluid {
       padding-top: 70px;
   }
+
