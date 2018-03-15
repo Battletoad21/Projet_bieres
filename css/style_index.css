@@ -154,7 +154,7 @@ body
         border-radius: 2px;
         margin-top: 30px;
         background-color: #E6E6E6;
-        height:560px;
+        min-height: 480px;
     }
 
     .select-beer
@@ -163,51 +163,8 @@ body
         -moz-transition: all 1s;
         -webkit-transition: all 1s;
         -o-transition: all 1s;
-        height: 900px;
     }
 }
-
-@media only screen and (min-width: 1200px)
-{
-    .select-beer:hover
-    {
-        transform: scale(1.05);
-        -ms-transform: scale(1.05);
-        -webkit-transform: scale(1.05);
-        -o-transform: scale(1.05);
-        -moz-transform: scale(1.05);
-        background-color: #2E2E2E;
-        border-radius: 12px;
-    }
-
-    .select-beer:hover img
-    {
-        border: orange solid 2px;
-    }
-
-    .textbeer
-    {
-        display: flex;
-        flex-direction: column;
-        border: black solid 1px;
-        border-radius: 2px;
-        margin-top: 30px;
-        background-color: #E6E6E6;
-        height: 640px;
-    }
-
-    .select-beer
-    {
-        transition: all 1s;
-        -moz-transition: all 1s;
-        -webkit-transition: all 1s;
-        -o-transition: all 1s;
-        height: 960px;
-    }
-}
-
-
-
 
 /*         spécialiste KYLE          */
 
