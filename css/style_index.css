@@ -25,17 +25,21 @@ body
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-    font-family: 'Cinzel', serif;
-    border: black solid 1px;
+    font-family: 'Electrolize', sans-serif;
     margin-right: 40px;
     margin-left: 40px;
     border-radius: 10px;
     padding: 10px;
+    background: orange;
+    box-shadow: 7px 7px 7px #2E2E2E;
+    border: solid #2E2E2E 1px;
 }
 
 .title_section h2
 {
     font-size: 22px;
+    color: #424242;
+    font-weight: bold;
 }
 
 
@@ -154,7 +158,7 @@ body
         border-radius: 2px;
         margin-top: 30px;
         background-color: #E6E6E6;
-        min-height: 480px;
+        min-height: 470px;
     }
 
     .select-beer
