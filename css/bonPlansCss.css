@@ -53,3 +53,9 @@ figure img{
     width: auto;
     height: 200px;
 }
+
+.special{
+  background-color: #5c5c5c;
+  color: white;
+border-radius: 20px;
+}
