@@ -46,10 +46,10 @@ article{
 
 article p{
       white-space: pre-line;
-      font-size: 10px;
+      font-size: 15px;
 }
 
 figure img{
-    width: 200px;
+    width: auto;
     height: 200px;
 }
