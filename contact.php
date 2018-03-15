@@ -20,16 +20,135 @@
     <?php include ('header.php'); ?>
     <!--          HEADER END           -->
 
+    <div>
+            <p>
+                <?php
+                
+                    if($_SERVER['REQUEST_METHOD'] === "POST")
+                    {
+                        $errors=array();
+                        if (empty($_POST['user_name']))
+                        {
+                            $errors['ErrNom'] = 'Veuillez indiquer votre nom.';
+                        }
+                        if (empty($_POST['user_email']))
+                        {
+                            $errors['ErrMail'] = 'Veuillez indiquer votre adresse Email.';
+                        }
+                        if (empty($_POST['user_telephone']))
+                        {
+                        $errors['ErrTel'] = 'Veuillez indiquer un n° de téléphone.';
+                        }
+                        if (!preg_match("#(^\+[0-9]{2}|^\+[0-9]{2}\(0\)|^\(\+[0-9]{2}\)\(0\)|^00[0-9]{2}|^0)([0-9]{9}$|[0-9\-\s]{10}$)#", $_POST['user_telephone']))
+                        {
+                            $errors['ErrTel2'] = 'Numero de téléphone invalide.';
+                        }
+                        if ($_POST['object'] == 'default')
+                        {
+                            $errors['ErrObject'] = 'Choisissez le sujet du message.';
+                            }
+                        if (empty($_POST['user_message']))
+                        {
+                            $errors['ErrMessage'] = 'Veuillez saisir votre message.';
+                        }
+                ?>
+            </p>
+        </div>
+
+        <div class="validation">
+            <p>
+                <?php
+                        if (count($errors) == 0)
+                        {
+                            echo 'Votre message a été envoyé avec succès !'.'<br>'.'<br>';
+                            echo 'Récapitulatif des informations :'.'<br>'.'<br>';
+                            echo 'Nom : '.$_POST['user_name'].'<br>';
+                            echo 'Email : '.$_POST['user_email'].'<br>';
+                            echo 'Téléphone : '.$_POST['user_telephone'].'<br>';
+                            echo 'Sujet : '.$_POST['object'].'<br>';
+                            echo 'Message : '.$_POST['user_message'].'<br>';
+                        }
+                    }
+                ?>
+            </p>
+        </div>
+
     <!--          SECTION          -->
-    <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-      </div>
+    <form class="form_contact" action="" method="post">
+            <h2>NOUS CONTACTER</h2>
+            <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="user_name" size="30" placeholder="votre nom" value="<?php if (isset($_POST['user_name']) && (count($errors) != 0)) echo $_POST['user_name']; ?>">
+                <div class="error">
+                <p>
+                    <?php
+                    if (isset($errors['ErrNom'])) echo $errors['ErrNom'];
+                    ?>
+                    <br>
+                </p>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="courriel">E-mail</label>
+                <input type="email" id="courriel" name="user_email" size="29" placeholder="adresse@mail.com" value="<?php if (isset($_POST['user_email']) && (count($errors) != 0)) echo $_POST['user_email']; ?>">
+                <div class="error">
+                <p>
+                    <?php
+                    if (isset($errors['ErrMail'])) echo $errors['ErrMail'];
+                    ?>
+                    <br>
+                </p>
+                </div>
+            </div>
+            
+
+            <div class="form-group">
+                <label for="telephone">Téléphone</label>
+                <input type="tel" id="telephone" name="user_telephone" size="25" value="<?php if (isset($_POST['user_telephone']) && (count($errors) != 0)) echo $_POST['user_telephone']; ?>">
+                <div class="error">
+                <p>
+                    <?php
+                    if (isset($errors['ErrTel'])) echo $errors['ErrTel'];
+                    if (isset($errors['ErrTel2'])) echo $errors['ErrTel2'];
+                    ?>
+                    <br>
+                </p>
+                </div>
+            </div>
+            
+
+            <div class="form-group">
+                <label for="object">Sujet du message</label>
+                <select name="object" id="object">
+                    <option value="default" id="default"></option>
+                    <option value="sav">Vous êtes un amateur</option>
+                    <option value="service consommateur">Vous êtes un professionnel (brasserie, bar...)</option>
+                    <option value="resiliation">Autres</option>
+                </select>
+                <div class="error">
+                <p>
+                    <?php
+                    if (isset($errors['ErrObject'])) echo $errors['ErrObject'];
+                    ?>
+                    <br>
+                </p>
+                </div>
+            </div>
+            
+
+            <div class="form-group">
+                <label for="message">Message</label><br/>
+                <textarea id="message" name="user_message" placeholder="votre message..." value="<?php if (isset($_POST['user_message']) && (count($errors) != 0)) echo $_POST['user_message']; ?>"></textarea>
+            </div>
+            <div class="error">
+                <p>
+                    <?php
+                    if (isset($errors['ErrMessage'])) echo $errors['ErrMessage'];
+                    ?>
+                    <br>
+                </p>
+            </div>
       <button type="submit" class="btn btn-default">Submit</button>
     </form>
     

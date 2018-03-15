@@ -1,4 +1,49 @@
+body
+{
+	background-color: #2E2E2E;
+	color: whitesmoke;
+	font-family: 'Electrolize', sans-serif;
+}
+
 form
 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	margin: 100px;
 }
+
+.error
+{
+	color: red;
+}
+
+h2
+{
+	margin-bottom: 50px;
+}
+
+label
+{
+	width: 150px;
+}
+
+input, select
+{
+	color: #2E2E2E;
+}
+
+textarea
+{
+	min-width: 300px;
+	height: 200px;
+	color: #2E2E2E;
+}
+
+.btn
+{
+	background-color: blue;
+	color: whitesmoke;
+	font-size: 20px;
+}
+
