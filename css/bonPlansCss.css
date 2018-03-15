@@ -1,4 +1,6 @@
-
+body{
+  background: url("../imge/escheres.png")  repeat;
+}
 #logo img{
   width: 100%;
   max-height: 70vh;
@@ -55,7 +57,10 @@ figure img{
 }
 
 .special{
-  background-color: #5c5c5c;
+  background: rgba(64, 64, 64, 0.62);
   color: white;
 border-radius: 20px;
+border: 2px solid rgb(0, 0, 0);
+padding: 20px;
+
 }

@@ -106,16 +106,3 @@
                 </article>
     </div>
   </div>
-
-
-            <div class="container-fluid special">
-                <div class="col-md-4 col-sm-12 col-xs-12">
-                  <figure class="text-center">
-                    <a href="" target="_blank"><img src="imge/kyle.png"></a>
-                  </figure>
-                </div>
-                <div class="col-md-8 col-sm-12 col-xs-12">
-                  <h4>Le bons plans du spécialiste !</h4>
-                  <p> Notre spécialiste vous conseil
-                </div>
-              </div>
