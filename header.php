@@ -1,12 +1,17 @@
 <!--          HEADER           -->
+<head>
+  <link rel="stylesheet" href="css/header.css">
+</head>
+
+
     <header>
 
       <!--          Logo          -->
       <div id="logo">
-        <a href="index.php"><img src="img/logo_beer.png"></a>
+        <img src="logo_beer.png">
       </div>
       <!--          Logo end         -->
-      
+
       <!--          Menu          -->
       <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -19,7 +24,8 @@
               <span class="icon-bar"></span>
             </button>
           </div>
-          
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li><a href="index.php">Accueil</a></li>
@@ -30,8 +36,6 @@
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
-
-
       <!--          Menu end         -->
 
     </header>

@@ -2,36 +2,7 @@
 
 /*         Modifier Logo          */
 
-#logo img
-{
-    max-width: 100%;
-    height: auto;
-}
 
-
-/*         Modifier barre de NavigationS          */
-
-.navbar-nav
-{
-    width: 100%;
-    text-align: center;
-}
-
-.navbar-nav li
-{
-    float: none;
-    display: inline-block;
-    font-family: 'Cinzel', serif;
-    font-size: 20px;
-}
-
-.navbar
-{
-    margin-bottom: 0px;
-    background: #D8D8D8;
-    border: 0px;
-    border-radius: 0px;
-}
 
 
 
@@ -150,26 +121,18 @@ body {
 
 /*         Modifier la couleur de fond          */
 
-footer
-{
-	background-color: #1C1C1C;
-	padding-top: 10px;
-	padding-bottom: 10px;
+.caption a {
+  color:black;
+  font-family: 'Megrim', cursive;
 }
 
 /*         Modifier 1ere ligne de liens         */
 
-.link_foot_one a
-{
-	margin: 20px;
-}
+
 
 /*         Modifier 2ème liens        */
 
-.link_foot_two a
-{
-	font-size: 12px;
-}
+
 
 /* centered columns styles */
 

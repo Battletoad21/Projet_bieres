@@ -1,4 +1,6 @@
-
+<head>
+  <link rel="stylesheet" href="css/footer.css"> 
+</head>
     <!--          FOOTER           -->
     <footer>
 
@@ -12,7 +14,7 @@
         <div class="row row-centered">
           <div class="col-md-12 col-centered link_foot_two"><p>© Wild Code School 2018 - Kyle, Hasan, Hery</p></div>
         </div>
-        
+
       </div>
 
     </footer>
