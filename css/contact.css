@@ -43,9 +43,15 @@ textarea
 
 .btn
 {
-	background-color: blue;
+	background-color: #337ab7;
 	color: whitesmoke;
 	font-size: 20px;
+}
+
+.btn:hover
+{
+	background-color: #2e6da4;
+	color: whitesmoke;
 }
 
 @media only screen and (min-width: 600px)
