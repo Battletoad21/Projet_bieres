@@ -1,0 +1,88 @@
+/*         ------------------FOOTER---------------          */
+
+/*         Modifier la couleur de fond          */
+
+footer
+{
+	background-color: #1C1C1C;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*         Modifier 1ere ligne de liens         */
+
+.link_foot_one a
+{
+	margin: 8px;
+}
+
+/*         Modifier 2ème liens        */
+
+.link_foot_two p
+{
+	font-size: 18px;
+    margin-top: 8px;
+}
+
+.link_foot_two a
+{
+    font-size: 17px;
+}
+
+/* centered columns styles */
+
+.row-centered
+{
+    text-align:center;
+    margin: 10px;
+}
+
+.col-centered
+{
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    text-align: center;
+}
+
+.first_bloc img
+{
+    height: 30px;
+    width: 30px;
+}
+
+.back_top
+{
+    position: absolute;
+}
+
+/* back to top */
+
+#myBtn
+{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    outline: none; /* Remove outline */
+    background-color: #191007; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border: solid #424242 2px;
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    font-family: 'Electrolize', sans-serif;
+}
+
+#myBtn:hover {
+    background-color: #191007;
+    border: solid orange 2px; /* Add a dark-grey background on hover */
+}
+
+/*         ------------------FOOTER end---------------          */
+

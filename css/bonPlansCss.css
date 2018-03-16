@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+#logo img{
+  width: 100%;
+  max-height: 70vh;
+}
+
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.item img{
+width: 100%;
+}
+
+.item .carousel-caption h3{
+  font-size: 800%;
+}
+
+.item .carousel-caption p{
+  font-size: 200%;
+}
+
+
+
+
+article{
+    background-color: #E0E0E0;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+article p{
+      white-space: pre-line;
+      font-size: 15px;
+}
+
+figure img{
+    width: auto;
+    height: 200px;
+}
+
+.special{
+  background: rgba(64, 64, 64, 0.62);
+  color: white;
+border-radius: 20px;
+border: 2px solid rgb(0, 0, 0);
+padding: 20px;
+
+}
