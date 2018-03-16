@@ -4,12 +4,12 @@
   <head>
 
     <meta charset="utf-8">
-    <title>MonSite</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel|Electrolize" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Electrolize" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
   </head>
@@ -24,7 +24,7 @@
     <div>
             <p>
                 <?php
-                
+
                     if($_SERVER['REQUEST_METHOD'] === "POST")
                     {
                         $errors=array();
@@ -89,7 +89,7 @@
                 </p>
                 </div>
             </div>
-            
+
             <div class="form-group">
                 <label for="courriel">E-mail</label><br/>
                 <input type="email" id="courriel" name="user_email" value="<?php if (isset($_POST['user_email']) && (count($errors) != 0)) echo $_POST['user_email']; ?>">
@@ -102,7 +102,7 @@
                 </p>
                 </div>
             </div>
-            
+
 
             <div class="form-group">
                 <label for="telephone">Téléphone</label><br/>
@@ -117,7 +117,7 @@
                 </p>
                 </div>
             </div>
-            
+
 
             <div class="form-group">
                 <label for="object">Sujet</label><br/>
@@ -136,7 +136,7 @@
                 </p>
                 </div>
             </div>
-            
+
 
             <div class="form-group">
                 <label for="message">Message</label><br/>
@@ -154,8 +154,8 @@
     </form>
 
   </contact>
-    
- 
+
+
 
     <!--          FOOTER           -->
     <?php include ('footer.php'); ?>
