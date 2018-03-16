@@ -1,0 +1,16 @@
+body
+{
+	margin: 65px;
+	background-color: #2E2E2E;
+}
+
+h2, h3, h4, p
+{
+	color: whitesmoke;
+	font-family: 'Electrolize', sans-serif;
+}
+
+p
+{
+	text-align: justify;
+}

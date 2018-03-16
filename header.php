@@ -11,7 +11,7 @@
       <!--          Logo end         -->
 
       <!--          Menu          -->
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -26,9 +26,9 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li><a href="index.php">Accueil</a></li>
-              <li><a href="#">Bons plans</a></li>
-              <li><a href="#">Atypique</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="Bonplans.php">Bons plans</a></li>
+              <li><a href="atypique.php">Atypique</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
