@@ -7,12 +7,12 @@
 
       <!--          Logo          -->
       <div id="logo">
-        <img src="logo_beer.png">
+        <img src="img/logo_beer.png">
       </div>
       <!--          Logo end         -->
 
       <!--          Menu          -->
-      <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+      <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="335">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">

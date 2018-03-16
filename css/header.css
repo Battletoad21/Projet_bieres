@@ -3,7 +3,9 @@
 /*         Modifier Logo          */
 
 
-
+body{
+    background: url("../imge/escheres.png")  repeat;
+}
 #logo img
 {
     max-width: 100%;
@@ -23,7 +25,7 @@
 {
     float: none;
     display: inline-block;
-    font-family: 'Cinzel', serif;
+    font-family:'Lobster','Cinzel', serif;
     font-size: 25px;
 }
 
@@ -46,6 +48,5 @@
   }
 
   .affix + .container-fluid {
-      padding-top: 70px;
+      padding-top: 50px;
   }
-

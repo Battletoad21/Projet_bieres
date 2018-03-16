@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <title>MonSite</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="atypique.css">
+    <link rel="stylesheet" href="css/atypique.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Electrolize" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Megrim" rel="stylesheet">
@@ -117,7 +117,7 @@
               <div class="row box-kyle">
                      <div class="col-md-12">
                        <div class="thumbnail specialist">
-                         <img src="lampe.jpg" alt="...">
+                         <img src="img/lampe.jpg" alt="...">
                          <div class="caption text-kyle">
                            <h3>Le mot de notre spécialiste</h3>
                            <p>La bière c'est bien, mais il n'y a pas que ça dans la vie. J'ai donc décidé de tester un cocktail. Et voila celui

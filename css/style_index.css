@@ -1,6 +1,6 @@
 
 /*         ------------------GENERAL---------------          */
-
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 /*         Modifier paragraphes         */
 
 p, h2, h3
@@ -50,6 +50,15 @@ body
 
 .carousel-caption h2
 {
+    font-family: 'Electrolize', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: white solid 1px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.carousel-caption p
+{
+    white-space: pre-wrap;
     font-family: 'Electrolize', sans-serif;
     background-color: rgba(0, 0, 0, 0.7);
     border: white solid 1px;
@@ -109,6 +118,8 @@ body
     text-align: center;
     background-color: transparent;
     border: none;
+    height: 20px;
+
 }
 
 @media only screen and (max-width: 990px)
@@ -130,10 +141,17 @@ body
         margin-top: 30px;
         background-color: #E6E6E6;
     }
-}
 
-@media only screen and (min-width: 990px)
-{
+
+  .height {
+    height: 700px;
+  }
+  .select-thumb
+  {
+      margin-top: 30px;
+      margin-right: 15px;
+      margin-left: 15px;
+  }
     .select-beer:hover
     {
         transform: scale(1.05);
@@ -141,8 +159,9 @@ body
         -webkit-transform: scale(1.05);
         -o-transform: scale(1.05);
         -moz-transform: scale(1.05);
-        background-color: #2E2E2E;
+        background-color: #f1f1f1;
         border-radius: 12px;
+        margin-bottom: 0 !important;
     }
 
     .select-beer:hover img
@@ -150,24 +169,120 @@ body
         border: orange solid 2px;
     }
 
-    .textbeer
+    .select-beer:hover .textbeer
     {
+      background-color: rgb(0, 0, 0);
+      color: white;
+    }
+
+
+    .textbeer {
         display: flex;
         flex-direction: column;
         border: black solid 1px;
         border-radius: 2px;
-        margin-top: 30px;
         background-color: #E6E6E6;
-        min-height: 470px;
+        height: 400px;
+        transition: all 20s;
+        margin: 0 !important;
+
     }
+
+    .select-beer:hover p{
+      background-color: rgb(74, 74, 74);
+      color: white;
+    }
+     .select-beer p{
+       transition: ease 20s;
+     }
+
+    .select-beer:hover h3{
+      color: white;
+    }
+     .select-beer h3{
+       transition: ease 20s;
+     }
 
     .select-beer
     {
-        transition: all 1s;
-        -moz-transition: all 1s;
-        -webkit-transition: all 1s;
-        -o-transition: all 1s;
+        transition: ease 1s;
+        -moz-transition: all ease 1s;
+        -webkit-transition: all ease 1s;
+        -o-transition: all ease 1s;
     }
+
+}
+@media only screen and (min-width: 991px)
+{
+
+  .height {
+    height: 700px;
+  }
+  .select-thumb
+  {
+      margin-top: 30px;
+      margin-right: 15px;
+      margin-left: 15px;
+  }
+    .select-beer:hover
+    {
+        transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        background-color: #f1f1f1;
+        border-radius: 12px;
+        margin-bottom: 0 !important;
+    }
+
+    .select-beer:hover img
+    {
+        border: orange solid 2px;
+    }
+
+    .select-beer:hover .textbeer
+    {
+      background-color: rgb(0, 0, 0);
+      color: white;
+    }
+
+
+    .textbeer {
+        display: flex;
+        flex-direction: column;
+        border: black solid 1px;
+        border-radius: 2px;
+        background-color: #E6E6E6;
+        min-height: 400px;
+        transition: all 20s;
+        margin: 0 !important;
+
+    }
+
+    .select-beer:hover p{
+      background-color: rgb(74, 74, 74);
+      color: white;
+    }
+     .select-beer p{
+       transition: ease 20s;
+     }
+
+    .select-beer:hover h3{
+      color: white;
+    }
+     .select-beer h3{
+       transition: ease 20s;
+     }
+
+    .select-beer
+    {
+        transition: ease 1s;
+        -moz-transition: all ease 1s;
+        -webkit-transition: all ease 1s;
+        -o-transition: all ease 1s;
+    }
+
 }
 
 /*         spécialiste KYLE          */
@@ -247,8 +362,3 @@ body
 }
 
 /*         ------------------SECTION end---------------          */
-
-
-
-
-

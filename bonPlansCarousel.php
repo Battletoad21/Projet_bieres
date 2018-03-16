@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/css/style_index.css">
+
 <div class="container-fluid">
     <div id="myCarousel" class="carousel slide">
       <!-- Indicators -->
@@ -13,24 +15,24 @@
         <div class="item active">
           <img src="imge/slide01.png" alt="bar">
           <div class="carousel-caption">
-            <h3>Ice-bar</h3>
-            <p>Thermostat froid, pour une bière chaleureuse.</p>
+            <p>Ice-bar
+            Thermostat froid, pour une bière chaleureuse.</p>
           </div>
         </div>
 
         <div class="item">
           <img src="imge/slide02.png" alt="bar">
           <div class="carousel-caption">
-            <h3>Les bons plans</h3>
-            <p>Les bières de Stras' enquêteur de bon plans depuis 1870.</p>
+            <p>Les bons plans
+            Les bières de Stras' enquêteur de bon plans depuis 1870.</p>
           </div>
         </div>
 
         <div class="item">
           <img src="imge/slide03.png" alt="bar">
           <div class="carousel-caption">
-            <h3>Les meilleurs conseil</h3>
-            <p>Grace à notre spécialise Kyle Grace, expert en bière de père en fils</p>
+            h2Les meilleurs conseilh2
+            <p>Grace à notre spécialise Kyle Brace, expert en bière de père en fils</p>
           </div>
         </div>
 
