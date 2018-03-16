@@ -11,10 +11,7 @@
 
 
 
-body {
-	background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
-	background-color: black;
-}
+
 
 .pic img {
 	height: 400px;
@@ -86,7 +83,7 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 20px;
-    background-color: Black;
+    background-color: rgb(23, 23, 23);
     border: #2E2E2E solid 2px;
     border-radius: 20px;
     margin-top: 35px;
@@ -107,8 +104,9 @@ body {
 
 .specialist h3, .specialist p
 {
-    color: #2E2E2E;
+    color: #8b8b8b;
     font-family: 'Electrolize', sans-serif;
+		font-size: 20px;
 }
 
 .specialist h3

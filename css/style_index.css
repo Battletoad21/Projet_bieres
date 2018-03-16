@@ -10,10 +10,7 @@ p, h2, h3
 
 /*         Modifier la couleur de fond          */
 
-body
-{
-    background: #E6E6E6;
-}
+
 
 
 /*         ------------------GENERAL end---------------          */
@@ -71,6 +68,10 @@ body
     .carousel-caption
     {
         display: none;
+    }
+
+    .textbeer{
+      height: 00px;
     }
 }
 
@@ -182,7 +183,7 @@ body
         border: black solid 1px;
         border-radius: 2px;
         background-color: #E6E6E6;
-        height: 400px;
+        height: 440px;
         transition: all 20s;
         margin: 0 !important;
 

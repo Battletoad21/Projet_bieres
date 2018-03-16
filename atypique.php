@@ -122,7 +122,7 @@
                            <h3>Le mot de notre spécialiste</h3>
                            <p>La bière c'est bien, mais il n'y a pas que ça dans la vie. J'ai donc décidé de tester un cocktail. Et voila celui
                            qui a retenu mon attention. Servi dans une ampoule (quelle idée lumineuse), se cocktail à base de rhum est léger, et bon! A prendre pour faire une pause entre deux bières! </p>
-                           <p><a href="#" class="btn btn-primary contact-kyle" role="button">Nous contacter</a></p>
+                           <p><a href="contact.php" class="btn btn-primary contact-kyle" role="button">Nous contacter</a></p>
                          </div>
                        </div>
                      </div>

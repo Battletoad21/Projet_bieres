@@ -74,7 +74,7 @@
 
       <div class="row select-thumb">
 
-        <div class="col-md-4 col-lg-3 select-beer">
+        <div class="col-sm-6 col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -85,7 +85,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-lg-3 select-beer">
+        <div class="col-sm-6 col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -96,7 +96,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-lg-3 select-beer">
+        <div class="col-sm-6 col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -107,7 +107,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-lg-3 select-beer">
+        <div class="col-sm-6 col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -118,7 +118,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-lg-3 select-beer">
+        <div class="col-sm-6 col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -129,7 +129,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-lg-3 select-beer">
+        <div class="col-sm-6 col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -140,7 +140,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-lg-3 select-beer">
+        <div class="col-sm-6 col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">
@@ -151,7 +151,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-lg-3 select-beer">
+        <div class="col-sm-6 col-md-4 col-lg-3 select-beer">
           <div class="thumbnail height">
             <img src="img/beer.png" alt="...">
             <div class="caption textbeer">

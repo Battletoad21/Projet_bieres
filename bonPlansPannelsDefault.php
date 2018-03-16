@@ -96,7 +96,7 @@
                   </div>
                   <div class="col-md-8 col-sm-12 col-xs-12">
                     <a href="http://www.academiedelabiere.com/" target="_blank"><h4>Académie de la Bière</h4></a>
-                    <p> Par où commencer ? La terrasse est formidable en été, l'intérieur du bar a franchement de la gueule avec son côté "cabane". Le choix de bière est très impressionnant (autant pour les pressions que pour les bières en bouteille), l'équipe du bar est très agréable et compétente. Pour manger c'est pas mal aussi avec des prix très raisonnable.
+                    <p> 
                       Alors voilà, comme son nom l'indique, ici, l'intérêt principal du bar, c'est la bière.
                       Au final, à Strasbourg, des bars pour boires des bières qui sortent un peu de l'ordinaire, il n'y en a pas tant que ça. De fait, ce bar possède un avantage que la quasi-totalité des bars de la ville ne possède pas.
                       ça pourrait s'arrêter là, mais non, au delà du "concept", le bar possède sa petite ambiance bien à lui: quand on est à l'Académie de la bière, on est là et pas ailleurs.
