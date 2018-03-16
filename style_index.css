@@ -1,0 +1,125 @@
+
+/*         ------------------GENERAL---------------          */
+
+p
+{
+    text-align: center;
+}
+
+body
+{
+    background: #F2F2F2;
+}
+
+/*         ------------------HEADER---------------          */
+
+/*         Logo          */
+
+#logo img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*         Nav          */
+
+.navbar-nav 
+{
+    width: 100%;
+    text-align: center;
+}
+    
+.navbar-nav li
+{
+    float: none;
+    display: inline-block;
+}
+
+.navbar
+{
+    margin-bottom: 0px;
+}
+
+/*         ------------------HEADER end---------------          */
+
+/*         Section         */
+
+.select-thumb
+{
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.specialist
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #2B3937;
+    border-radius: 20px;
+}
+
+}
+
+.specialist img
+{
+    margin: 10px;
+    height: 150px;
+}
+
+.specialist h3, .specialist p
+{
+    color: #6E6E6E;
+}
+
+.height h2, .height h3, .height p
+{
+    color: #6E6E6E;
+}
+
+.height
+{
+    height: 600px;
+    padding-top: 20px;
+    background-color: #1C1C1C;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/*         Footer          */
+
+footer
+{
+	background-color: #1C1C1C;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.link_foot_one a
+{
+	margin: 20px;
+}
+
+.link_foot_two a
+{
+	font-size: 12px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    text-align: center;
+}

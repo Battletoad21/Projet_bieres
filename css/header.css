@@ -1,0 +1,52 @@
+/*         ------------------HEADER---------------          */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+/*         Modifier Logo          */
+
+
+body{
+    background: url("../imge/escheres.png")  repeat;
+}
+#logo img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*         Modifier barre de NavigationS          */
+
+.navbar-nav
+{
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav li
+{
+    float: none;
+    display: inline-block;
+    font-family:'Lobster','Cinzel', serif;
+    font-size: 25px;
+}
+
+.navbar
+{
+    margin-bottom: 0px;
+    background: #191007;
+    border: 0px;
+    border-radius: 0px;
+}
+
+
+
+/*         ------------------HEADER end---------------          */
+
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 50px;
+  }
