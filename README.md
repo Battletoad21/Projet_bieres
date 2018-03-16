@@ -7,3 +7,5 @@ Un premier projet organisée par notre école, la [Wild Code School](https://wil
 * [Hery](https://github.com/Hery-Rs)
 * [Kyle](https://github.com/Battletoad21)
 * [Hasan](https://github.com/naashw)
+
+lien du projet : https://github.com/naashw/Projet_bieres
