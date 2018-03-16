@@ -1,6 +1,6 @@
 <!--          HEADER           -->
 <head>
-  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="./css/header.css">
 <link href="https://fonts.googleapis.com/css?family=Cinzel|Electrolize" rel="stylesheet">
 </head>
     <header>

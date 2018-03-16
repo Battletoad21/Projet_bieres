@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/css/style_index.css">
+<link rel="stylesheet" href="./css/style_index.css">
 
 <div class="container-fluid">
     <div id="myCarousel" class="carousel slide">
