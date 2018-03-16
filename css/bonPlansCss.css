@@ -1,9 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body{
+  background: url("../imge/escheres.png")  repeat;
+}
 #logo img{
   width: 100%;
   max-height: 70vh;
 }
- 
+
 .container-fluid{
   padding-left: 0px;
   padding-right: 0px;
@@ -11,6 +16,7 @@
 
 .navbar{
   margin-bottom: 0px;
+  font-family: 'Lobster', cursive;
 }
 .item img{
 width: 100%;
@@ -42,14 +48,24 @@ article{
     margin-bottom: 10px;
     margin-top: 10px;
     width: 100%;
+    border-radius: 10px;
 }
 
 article p{
       white-space: pre-line;
-      font-size: 10px;
+      font-size: 15px;
 }
 
 figure img{
-    width: 200px;
+    width: auto;
     height: 200px;
+}
+
+.special{
+  background: rgba(64, 64, 64, 0.62);
+  color: white;
+border-radius: 20px;
+border: 2px solid rgb(0, 0, 0);
+padding: 20px;
+
 }

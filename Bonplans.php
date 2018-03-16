@@ -6,19 +6,17 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- /Bootstrap -->
 
-    <link rel="stylesheet" href="css/bonPlansCss.css">
+    <link rel="stylesheet" href="/css/bonPlansCss.css">
     <meta charset="utf-8">
     <title>Les bons plans</title>
   </head>
   <body>
 
-    <?php include 'bonPlansHeader.php'; ?>
-
-    <?php include 'bonPlansPannels.php' ?>
-
-<?php include 'bonPlansFooter.php' ?>
+    <?php include 'header.php';
+          include 'bonPlansCarousel.php';
+          include 'bonPlansPannels.php';
+          include 'footer.php'; ?>
 
 
   </body>
 </html>
- 

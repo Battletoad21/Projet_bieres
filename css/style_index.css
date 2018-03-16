@@ -25,17 +25,21 @@ body
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-    font-family: 'Cinzel', serif;
-    border: black solid 1px;
+    font-family: 'Electrolize', sans-serif;
     margin-right: 40px;
     margin-left: 40px;
     border-radius: 10px;
     padding: 10px;
+    background: orange;
+    box-shadow: 7px 7px 7px #2E2E2E;
+    border: solid #2E2E2E 1px;
 }
 
 .title_section h2
 {
     font-size: 22px;
+    color: #424242;
+    font-weight: bold;
 }
 
 
@@ -154,7 +158,7 @@ body
         border-radius: 2px;
         margin-top: 30px;
         background-color: #E6E6E6;
-        height:560px;
+        min-height: 470px;
     }
 
     .select-beer
@@ -163,51 +167,8 @@ body
         -moz-transition: all 1s;
         -webkit-transition: all 1s;
         -o-transition: all 1s;
-        height: 900px;
     }
 }
-
-@media only screen and (min-width: 1200px)
-{
-    .select-beer:hover
-    {
-        transform: scale(1.05);
-        -ms-transform: scale(1.05);
-        -webkit-transform: scale(1.05);
-        -o-transform: scale(1.05);
-        -moz-transform: scale(1.05);
-        background-color: #2E2E2E;
-        border-radius: 12px;
-    }
-
-    .select-beer:hover img
-    {
-        border: orange solid 2px;
-    }
-
-    .textbeer
-    {
-        display: flex;
-        flex-direction: column;
-        border: black solid 1px;
-        border-radius: 2px;
-        margin-top: 30px;
-        background-color: #E6E6E6;
-        height: 640px;
-    }
-
-    .select-beer
-    {
-        transition: all 1s;
-        -moz-transition: all 1s;
-        -webkit-transition: all 1s;
-        -o-transition: all 1s;
-        height: 960px;
-    }
-}
-
-
-
 
 /*         spécialiste KYLE          */
 
@@ -237,6 +198,7 @@ body
     border: #2E2E2E solid 2px;
     border-radius: 20px;
     margin-top: 35px;
+    box-shadow: 7px 7px 7px #2E2E2E;
 }
 
 .specialist img
